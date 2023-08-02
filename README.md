@@ -2,6 +2,8 @@
 
 Start a local kubernetes cluster with traefik ingress and HTTPS _in seconds_! 🚀
 
+> __· Tested on Mac M1__
+
 ## Prerequisites
 
 - [Docker](https://docs.docker.com/install/)
