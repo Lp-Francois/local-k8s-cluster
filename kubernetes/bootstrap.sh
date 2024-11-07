@@ -45,6 +45,7 @@ kubectl apply -k ./kubernetes/apps
 
 ##############################################
 echo -e "\n› Done!"
-echo -e "\n[💻] WhoAmI application running on: https://whoami.127.0.0.1.nip.io"
+echo -e "\n[💻] WhoAmI application running on: http://whoami.127.0.0.1.nip.io"
+echo -e "                                    https://whoami.127.0.0.1.nip.io"
 echo -e "[💻] Traefik dashboard accessible at http://traefik.127.0.0.1.nip.io/dashboard/ \n"
 
