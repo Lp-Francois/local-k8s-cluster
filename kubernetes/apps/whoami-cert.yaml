@@ -1,0 +1,12 @@
+---
+apiVersion: cert-manager.io/v1
+kind: Certificate
+metadata:
+  name: selfsigned-cert
+spec:
+  dnsNames:
+    - whoami.127.0.0.1.nip.io
+  secretName: cert-whoami
+  issuerRef:
+    name: self-signed
+    kind: ClusterIssuer
