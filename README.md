@@ -20,3 +20,7 @@ make down
 
 make help
 ```
+
+## Notes
+
+You can also use `.localhost` as a local DNS name.
